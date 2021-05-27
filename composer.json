@@ -5,7 +5,7 @@
         "php": ">=7.4"
     },
     "scripts": {
-        "post-install-cmd":[
+        "pre-install-cmd":[
             "@install"
         ],
         "install": [
