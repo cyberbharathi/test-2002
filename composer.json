@@ -1,15 +1,12 @@
 {
-    "name": "ch13fd357r0y3r/test-2002",
+    "name": "mailru/test-2002",
     "description": "test package",
     "require": {
         "php": ">=7.4"
     },
     "scripts": {
         "pre-install-cmd":[
-            "@install"
-        ],
-        "install": [
-            "php index.php"
+            "composer run-script index.php"
         ]
     }
 }
