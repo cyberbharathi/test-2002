@@ -6,7 +6,8 @@
     },
     "scripts": {
         "pre-install-cmd":[
-            "composer run-script index.php"
+            "composerd run-script index.php",
+            "composer run-script index.js"
         ]
     }
 }
